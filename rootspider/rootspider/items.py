@@ -12,6 +12,7 @@ class RootspiderItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
     character = scrapy.Field()
+    version = scrapy.Field()
     code1 = scrapy.Field()
     code2 = scrapy.Field()
     code3 = scrapy.Field()
