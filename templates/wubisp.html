@@ -12,7 +12,7 @@
 </head>
 <body>
     {% if c %}
-        <img img src="http://127.0.0.1:5000/img/{{c}}" height="100">
+        <img src="http://127.0.0.1:5000/img?c={{c}}&v=86" height="100">
     {% else %}
         <input type="text" class="form-control" id="c">
         <button type="button" class="btn btn-success" id="query">查询</button>
